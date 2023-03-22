@@ -1,29 +1,16 @@
 import './App.css';
+import { Authenticator } from "@aws-amplify/ui-react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello world!</h1>
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
-    </div>
+    <Authenticator>
+    {({ signOut, user }) => (
+      <main>
+        <h1>Hello {user.username}</h1>
+        <button onClick={signOut}>Sign out</button>
+      </main>
+    )}
+    </Authenticator>
   );
 }
 

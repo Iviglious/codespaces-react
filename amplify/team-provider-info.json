@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-codespacesreact-dev-03755-authRole",
+      "UnauthRoleArn": "arn:aws:iam::534570305007:role/amplify-codespacesreact-dev-03755-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::534570305007:role/amplify-codespacesreact-dev-03755-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-codespacesreact-dev-03755-deployment",
+      "UnauthRoleName": "amplify-codespacesreact-dev-03755-unauthRole",
+      "StackName": "amplify-codespacesreact-dev-03755",
+      "StackId": "arn:aws:cloudformation:us-east-1:534570305007:stack/amplify-codespacesreact-dev-03755/ca2bcf70-c849-11ed-be05-0a8e6cb3e91f",
+      "AmplifyAppId": "d32s7uuvg8ls6m"
+    }
+  }
+}
